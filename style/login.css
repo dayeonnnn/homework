@@ -1,0 +1,77 @@
+main {
+    width: 1200px;
+    margin:50px auto;
+    padding:100px 0;
+    text-align: center;
+}
+main .logo {
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: end;
+    justify-content: center;
+}
+main .logo h1 {
+    width: 140px;
+}
+main .logo h1 a {}
+main .logo h1 a img {
+    width: 100%;
+}
+main .logo_sub {
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    font-size: 1.333rem;
+}
+main fieldset {
+    background-color: #efefef;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+main fieldset ul {
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+main fieldset ul li {
+    width: 350px; height: 50px;
+    padding:0 10px;
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border:2px solid #d6d6d6;
+}
+main fieldset ul li img {width: 30px; height: 30px; margin-right: 10px;}
+main fieldset ul li input {
+    width: 80%;
+}
+main fieldset #login_btn {
+    margin-top: 10px;
+    background: none;
+    color:#fff;
+    border:3px solid #ba3636;
+    background: red;
+    width: 350px; height: 50px;
+}
+main fieldset #login_btn:hover {
+    background-color: rgb(213, 0, 0);
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+main fieldset .id_pass {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top:40px
+}
+main fieldset .id_pass a {
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+main fieldset .id_pass a:first-child {margin-right: 20px;}
+main fieldset .id_pass a span {font-size: 0.8rem}
+main fieldset .id_pass a img {width: 5px;}

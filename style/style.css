@@ -100,7 +100,7 @@ main .movie {
     margin: 50px auto;
 }
 main h2 {
-    font-size: 1.777rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 30px;
 }
@@ -183,7 +183,7 @@ main .event_bg .event ul li {
 }
 main .event_bg .event ul li:last-child {margin-right: 0;}
 main .event_bg .event ul li a {}
-main .event_bg .event ul li a img {width: 100%;}
+main .event_bg .event ul li a img {width: 100%; border-radius: 10px;}
 main .event_bg .event ul li a .event_btm {}
 main .event_bg .event ul li a .event_btm h3 {
     font-size: 1.333rem;
@@ -192,4 +192,85 @@ main .event_bg .event ul li a .event_btm h3 {
     overflow: hidden;
 }
 main .event_bg .event ul li a .event_btm p {}
-/* 특별관부터 스타일쓰고 footer도 html부터 쓰기 */
+main .special {
+    width: 1200px;
+    margin: 50px auto;
+}
+main .special h2 {}
+main .special .special_btm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+/* main .special .special_btm .img {
+    width:calc(50% - 20px / 2);
+    height: 300px;
+} */
+main .special .special_btm .img {}
+main .special .special_btm .img p {
+    background: url(../images/special.png) no-repeat center;
+    background-size: 100%;
+    height: 300px;
+    width:590px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+main .special .special_btm .img p:hover {
+    background-size: 105%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+/* main .special .special_btm .img img {width: 100%;} */
+main .special .special_btm .special_right {
+    width:590px;
+}
+main .special .special_btm .special_right ul {
+    display: flex;
+    flex-flow: column nowrap;
+}
+main .special .special_btm .special_right ul li {}
+main .special .special_btm .special_right ul li:last-child {
+    border-bottom: 2px solid #efefef;
+}
+main .special .special_btm .special_right ul li a {
+    border-top: 2px solid #efefef;
+    height: 75px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+}
+main .special .special_btm .special_right ul li a:hover {
+    background-color: #efefef;
+}
+main .special .special_btm .special_right ul li a p {
+    font-size: 1.333rem;
+}
+main .special .special_btm .special_right ul li a p span {
+    background-color: #efefef;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline;
+}
+footer {
+    width: 1200px; 
+    margin: 0 auto;
+    padding:50px 0;
+    border-top: 1px solid #aaa;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer_l{}
+footer .footer_l address {
+    color:#555555;
+    font-weight: 700;
+    line-height: 25px;
+}
+footer .footer_l p {
+    color:#555555;
+    line-height: 25px;
+}
+footer .footer_r {width: 150px;}
+footer .footer_r img {width: 100%;}
